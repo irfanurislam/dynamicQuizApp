@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Quiz Application</title>
+    <link rel="stylesheet" href="quiz.css" />
+    <!-- Link to your CSS file -->
+  </head>
+  <body>
+    <!-- Main Container for Full Body -->
+    <div class="container">
+      <h1>Dynamic Quiz Application</h1>
+
+      <!-- User Information Input -->
+      <div id="user-info">
+        <label for="userName">Name:</label>
+        <input type="text" id="userName" placeholder="Enter your name" />
+        <label for="userId">ID:</label>
+        <input type="text" id="userId" placeholder="Enter your ID" />
+      </div>
+
+      <!-- Quiz Form Container -->
+      <form id="quiz-form">
+        <!-- Quiz questions will be dynamically  -->
+      </form>
+
+      <!-- Submit Quiz Button -->
+      <div class="button-container">
+        <button onclick="submitQuiz()">Submit Quiz</button>
+      </div>
+
+      <!-- Result Display -->
+      <div id="result"></div>
+    </div>
+
+    <!-- Include JavaScript file -->
+    <script src="quiz.js"></script>
+  </body>
+</html>
